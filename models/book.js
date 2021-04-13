@@ -16,7 +16,7 @@ const bookSchema = new Schema({
   },
   link: {
     type: String
-  },
+  }
 })
 
 const Book = mongoose.model('Book', bookSchema)
