@@ -16,6 +16,9 @@ const bookSchema = new Schema({
   },
   link: {
     type: String
+  },
+  book_id: {
+    type: String
   }
 })
 
